@@ -46,6 +46,10 @@
   background-color: #222831;
 }
 
+.bg-black-grey{
+  background-color: #323232; 
+}
+
 .bg-light-black{
   background-color: #393e46;
 }
@@ -121,6 +125,10 @@
 
 .text-dark-orange{
   color: #ff8c00;
+}
+
+.text-gold{
+  color: #c7a865;
 }
 
 .text-grass{

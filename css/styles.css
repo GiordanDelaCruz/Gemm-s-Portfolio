@@ -1,9 +1,25 @@
 body{
+  background-color: rgb(36 35 35);
   margin: 0;
 }
 
+a{
+  color: white;
+}
+
+a:hover{
+  color: #c7a865;
+  text-decoration: none;
+}
+
 p{
-  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+h1, h5{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
 }
 
 /* Text */
@@ -13,6 +29,10 @@ p{
 
 .text-title-part-2{
   font-size: 20px;
+}
+
+.img-description{
+  font-size: 16px;
 }
 
 .title-font{
@@ -26,8 +46,20 @@ p{
   font-family: 'Montserrat', sans-serif;
 }
 
+.gemm{
+  font-size: 40px;
+}
+
+.big-text{
+  font-size: 40px;
+}
+
+.md-text{
+  font-size: 28px;
+}
+
 .sidebar{
-  background-color: rgb(50 50 50);
+  background-color: #323232;
   height: 100%;
   width: 8rem;
   position: fixed;
@@ -39,7 +71,7 @@ p{
 }
 
 .main {
-  background-color: rgb(36 35 35);
+  background-color: #242323;
   margin: 0 0 0 8rem; /* Same as the width of the sidenav */
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0 2rem;
@@ -51,6 +83,10 @@ p{
 }
 
 /* Images */
+.images{
+  margin-top: 7rem;
+}
+
 .constant-size{
   width: 12rem;
 }
