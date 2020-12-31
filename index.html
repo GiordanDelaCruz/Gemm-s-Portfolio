@@ -11,6 +11,8 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <!-- Custom Style Sheets -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/ga-style.css">
@@ -22,15 +24,32 @@
     <section>
       <div class="sidebar">
         <div class="container pt-4">
+          <div class="header p-2">
             <p class="side-title text-title-part-1 m-0">GB</p>
             <p class="side-title text-title-part-2 m-0">Portofolio</p>
             <div class="links mt-3">
-              <a class="d-block" href="#">Home</a>
-              <a class="d-block" href="#">Asian</a>
-              <a class="d-block" href="#">Fineline</a>
-              <a class="d-block" href="#">Illustrative</a>
-              <a class="d-block" href="#">Realism</a>
+              <div class="link-box">
+                <a class="d-bloc text-gold" href="#">home</a>
+              </div>
+              <div class="link-box">
+                <a class="d-block" href="#">realism</a>
+              </div>
+              <div class="link-box">
+                <a class="d-block" href="#">illustrative</a>
+              </div>
+              <div class="link-box">
+                <a class="d-block" href="#">fineline</a>
+              </div>
+              <div class="link-box">
+                <a class="d-block" href="#">asian</a>
+              </div>
+              <div class="link-box">
+                <a class="email d-inline-block mr-2" href="mailto:gemm.belle.dc@gmail.com"><i class="far fa-envelope "></i></a>
+                <a class="d-inline-block" href="https://www.instagram.com/gemm.belle/"><i class="fab fa-instagram text-white"></i></a>
+              </div>
+
             </div>
+          </div>
         </div>
 
       </div>
@@ -40,277 +59,14 @@
     <section class="main">
 
       <!-- Header Component -->
-      <div class="container mb-5">
-        <div class="container pt-4">
-            <p class="side-title text-title-part-1 m-0 d-inline-block">GB</p>
-            <p class="side-title text-title-part-2 m-0 d-inline-block">Portofolio</p>
-        </div>
-
-        <div class="text-center">
-          <h1>Home</h1>
-        </div>
-        <div class="container title-box text-left p-3">
-          <p class="title-font m-0">Hello, i'm <span class="gemm">GEMM.</span></p>
-          <p class="title-font m-0 indent">This is <span class="big-text">MY ART</span> at a <span class="md-text">glance.</span></p>
+      <div class="container mb-3 pt-5 text-center">
+        <div class="container title-box p-3">
+          <p class="title-font m-0">Hello, i'm Gemm</p>
+          <p class="title-font m-0">This is my art at a glance.</p>
         </div>
 
       </div>
 
-
-      <!-- Carousel Component-->
-      <div class="container">
-        <!-- Carousel -->
-        <div id="carouselExampleIndicators" class="carousel slide bg-black-grey p-5" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="12"></li>
-          </ol>
-          <div class="carousel-inner">
-
-            <!-- Corousel item #1 -->
-            <div class="carousel-item active">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-5">
-                    <img class="d-block w-75 img-fluid" src="images/home/1.JPG" alt="First slide">
-                  </div>
-                  <div class="col d-none d-md-block">
-                    <h5 class="text-gold" class="text-gold">First Image</h5 class="text-gold" class="text-gold">
-                    <p>Skull</p>
-                    <p class="img-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat efficitur diam egestas vestibulum. Aliquam erat volutpat. Vestibulum ullamcorper scelerisque turpis at consectetur. Sed sed purus eu lectus sagittis bibendum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed euismod velit vitae augue congue eleifend. Vestibulum at libero risus. Mauris non dui quis lacus tincidunt dictum. Sed felis ex, commodo et vestibulum quis, dignissim in ex. Mauris eget nunc eget mi pharetra condimentum.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Corousel item #2 -->
-            <div class="carousel-item">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-5">
-                    <img class="d-block w-75 img-fluid" src="images/home/2.JPG" alt="Second slide">
-                  </div>
-                  <div class="col d-none d-md-block">
-                    <h5 class="text-gold">Second Image</h5 class="text-gold">
-                    <p>Heart</p>
-                    <p class="img-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat efficitur diam egestas vestibulum. Aliquam erat volutpat. Vestibulum ullamcorper scelerisque turpis at consectetur. Sed sed purus eu lectus sagittis bibendum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed euismod velit vitae augue congue eleifend. Vestibulum at libero risus. Mauris non dui quis lacus tincidunt dictum. Sed felis ex, commodo et vestibulum quis, dignissim in ex. Mauris eget nunc eget mi pharetra condimentum.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Corousel item #3 -->
-            <div class="carousel-item">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-5">
-                    <img class="d-block w-75 img-fluid" src="images/home/3.JPG" alt="Thrid slide">
-                  </div>
-                  <div class="col d-none d-md-block">
-                    <h5 class="text-gold">Thrid Image</h5 class="text-gold">
-                    <p>Pizza</p>
-                    <p class="img-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat efficitur diam egestas vestibulum. Aliquam erat volutpat. Vestibulum ullamcorper scelerisque turpis at consectetur. Sed sed purus eu lectus sagittis bibendum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed euismod velit vitae augue congue eleifend. Vestibulum at libero risus. Mauris non dui quis lacus tincidunt dictum. Sed felis ex, commodo et vestibulum quis, dignissim in ex. Mauris eget nunc eget mi pharetra condimentum.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Corousel item #4 -->
-            <div class="carousel-item">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-5">
-                    <img class="d-block w-75 img-fluid" src="images/home/4.JPG" alt="Thrid slide">
-                  </div>
-                  <div class="col d-none d-md-block">
-                    <h5 class="text-gold">Thrid Image</h5 class="text-gold">
-                    <p>Pizza</p>
-                    <p class="img-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat efficitur diam egestas vestibulum. Aliquam erat volutpat. Vestibulum ullamcorper scelerisque turpis at consectetur. Sed sed purus eu lectus sagittis bibendum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed euismod velit vitae augue congue eleifend. Vestibulum at libero risus. Mauris non dui quis lacus tincidunt dictum. Sed felis ex, commodo et vestibulum quis, dignissim in ex. Mauris eget nunc eget mi pharetra condimentum.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Corousel item #5 -->
-            <div class="carousel-item">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-5">
-                    <img class="d-block w-75 img-fluid" src="images/home/5.JPG" alt="Thrid slide">
-                  </div>
-                  <div class="col d-none d-md-block">
-                    <h5 class="text-gold">Thrid Image</h5 class="text-gold">
-                    <p>Pizza</p>
-                    <p class="img-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat efficitur diam egestas vestibulum. Aliquam erat volutpat. Vestibulum ullamcorper scelerisque turpis at consectetur. Sed sed purus eu lectus sagittis bibendum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed euismod velit vitae augue congue eleifend. Vestibulum at libero risus. Mauris non dui quis lacus tincidunt dictum. Sed felis ex, commodo et vestibulum quis, dignissim in ex. Mauris eget nunc eget mi pharetra condimentum.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Corousel item #6 -->
-            <div class="carousel-item">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-5">
-                    <img class="d-block w-75 img-fluid" src="images/home/7.JPG" alt="Thrid slide">
-                  </div>
-                  <div class="col d-none d-md-block">
-                    <h5 class="text-gold">Thrid Image</h5 class="text-gold" class="text-gold">
-                    <p>Pizza</p>
-                    <p class="img-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat efficitur diam egestas vestibulum. Aliquam erat volutpat. Vestibulum ullamcorper scelerisque turpis at consectetur. Sed sed purus eu lectus sagittis bibendum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed euismod velit vitae augue congue eleifend. Vestibulum at libero risus. Mauris non dui quis lacus tincidunt dictum. Sed felis ex, commodo et vestibulum quis, dignissim in ex. Mauris eget nunc eget mi pharetra condimentum.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Corousel item #7 -->
-            <div class="carousel-item">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-5">
-                    <img class="d-block w-75 img-fluid" src="images/home/8.JPG" alt="Thrid slide">
-                  </div>
-                  <div class="col d-none d-md-block">
-                    <h5 class="text-gold">Thrid Image</h5 class="text-gold" class="text-gold">
-                    <p>Pizza</p>
-                    <p class="img-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat efficitur diam egestas vestibulum. Aliquam erat volutpat. Vestibulum ullamcorper scelerisque turpis at consectetur. Sed sed purus eu lectus sagittis bibendum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed euismod velit vitae augue congue eleifend. Vestibulum at libero risus. Mauris non dui quis lacus tincidunt dictum. Sed felis ex, commodo et vestibulum quis, dignissim in ex. Mauris eget nunc eget mi pharetra condimentum.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Corousel item #8 -->
-            <div class="carousel-item">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-5">
-                    <img class="d-block w-75 img-fluid" src="images/home/9.JPG" alt="Thrid slide">
-                  </div>
-                  <div class="col d-none d-md-block">
-                    <h5 class="text-gold">Thrid Image</h5 class="text-gold" class="text-gold">
-                    <p>Pizza</p>
-                    <p class="img-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat efficitur diam egestas vestibulum. Aliquam erat volutpat. Vestibulum ullamcorper scelerisque turpis at consectetur. Sed sed purus eu lectus sagittis bibendum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed euismod velit vitae augue congue eleifend. Vestibulum at libero risus. Mauris non dui quis lacus tincidunt dictum. Sed felis ex, commodo et vestibulum quis, dignissim in ex. Mauris eget nunc eget mi pharetra condimentum.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Corousel item #9 -->
-            <div class="carousel-item">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-5">
-                    <img class="d-block w-75 img-fluid" src="images/home/10.JPG" alt="Thrid slide">
-                  </div>
-                  <div class="col d-none d-md-block">
-                    <h5 class="text-gold">Thrid Image</h5 class="text-gold" class="text-gold">
-                    <p>Pizza</p>
-                    <p class="img-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat efficitur diam egestas vestibulum. Aliquam erat volutpat. Vestibulum ullamcorper scelerisque turpis at consectetur. Sed sed purus eu lectus sagittis bibendum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed euismod velit vitae augue congue eleifend. Vestibulum at libero risus. Mauris non dui quis lacus tincidunt dictum. Sed felis ex, commodo et vestibulum quis, dignissim in ex. Mauris eget nunc eget mi pharetra condimentum.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Corousel item #10 -->
-            <div class="carousel-item">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-5">
-                    <img class="d-block w-75 img-fluid" src="images/home/11.JPG" alt="Thrid slide">
-                  </div>
-                  <div class="col d-none d-md-block">
-                    <h5 class="text-gold">Thrid Image</h5 class="text-gold" class="text-gold">
-                    <p>Pizza</p>
-                    <p class="img-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat efficitur diam egestas vestibulum. Aliquam erat volutpat. Vestibulum ullamcorper scelerisque turpis at consectetur. Sed sed purus eu lectus sagittis bibendum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed euismod velit vitae augue congue eleifend. Vestibulum at libero risus. Mauris non dui quis lacus tincidunt dictum. Sed felis ex, commodo et vestibulum quis, dignissim in ex. Mauris eget nunc eget mi pharetra condimentum.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Corousel item #11 -->
-            <div class="carousel-item">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-5">
-                    <img class="d-block w-75 img-fluid" src="images/home/12.JPG" alt="Thrid slide">
-                  </div>
-                  <div class="col d-none d-md-block">
-                    <h5 class="text-gold">Thrid Image</h5 class="text-gold" class="text-gold">
-                    <p>Pizza</p>
-                    <p class="img-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat efficitur diam egestas vestibulum. Aliquam erat volutpat. Vestibulum ullamcorper scelerisque turpis at consectetur. Sed sed purus eu lectus sagittis bibendum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed euismod velit vitae augue congue eleifend. Vestibulum at libero risus. Mauris non dui quis lacus tincidunt dictum. Sed felis ex, commodo et vestibulum quis, dignissim in ex. Mauris eget nunc eget mi pharetra condimentum.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Corousel item #12-->
-            <div class="carousel-item">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-5">
-                    <img class="d-block w-75 img-fluid" src="images/home/13.JPG" alt="Thrid slide">
-                  </div>
-                  <div class="col d-none d-md-block">
-                    <h5 class="text-gold">Thrid Image</h5 class="text-gold" class="text-gold">
-                    <p>Pizza</p>
-                    <p class="img-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat efficitur diam egestas vestibulum. Aliquam erat volutpat. Vestibulum ullamcorper scelerisque turpis at consectetur. Sed sed purus eu lectus sagittis bibendum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed euismod velit vitae augue congue eleifend. Vestibulum at libero risus. Mauris non dui quis lacus tincidunt dictum. Sed felis ex, commodo et vestibulum quis, dignissim in ex. Mauris eget nunc eget mi pharetra condimentum.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Corousel item #13 -->
-            <div class="carousel-item">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-5">
-                    <img class="d-block w-75 img-fluid" src="images/home/14.JPG" alt="Thrid slide">
-                  </div>
-                  <div class="col d-none d-md-block">
-                    <h5 class="text-gold">Thrid Image</h5 class="text-gold" class="text-gold">
-                    <p>Pizza</p>
-                    <p class="img-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat efficitur diam egestas vestibulum. Aliquam erat volutpat. Vestibulum ullamcorper scelerisque turpis at consectetur. Sed sed purus eu lectus sagittis bibendum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed euismod velit vitae augue congue eleifend. Vestibulum at libero risus. Mauris non dui quis lacus tincidunt dictum. Sed felis ex, commodo et vestibulum quis, dignissim in ex. Mauris eget nunc eget mi pharetra condimentum.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-
-      </div>
 
       <!-- Image Component  -->
       <div class="images container">
@@ -332,13 +88,13 @@
             <div class="col">
               <img src="images/home/5.JPG" class="img-fluid constant-size" alt="">
             </div>
-            <div class="col">
-              <img src="images/home/7.JPG" class="img-fluid constant-size" alt="">
-            </div>
           </div>
 
             <!-- Second Row -->
           <div class="row align-items-start my-4">
+            <div class="col">
+              <img src="images/home/7.JPG" class="img-fluid constant-size" alt="">
+            </div>
             <div class="col">
               <img src="images/home/8.JPG" class="img-fluid constant-size" alt="">
             </div>
@@ -349,13 +105,17 @@
                 <img src="images/home/10.JPG" class="img-fluid constant-size" alt="">
             </div>
             <div class="col">
-              <img src="images/home/11.JPG" class="img-fluid constant-size" alt="">
+              <img src="images/home/13.JPG" class="img-fluid constant-size" alt="">
             </div>
+          </div>
+
+          <!-- Third Row -->
+          <div class="row align-items-start my-4">
             <div class="col">
               <img src="images/home/12.JPG" class="img-fluid constant-size" alt="">
             </div>
             <div class="col">
-              <img src="images/home/13.JPG" class="img-fluid constant-size" alt="">
+              <img src="images/home/11.JPG" class="img-fluid constant-size" alt="">
             </div>
             <div class="col">
               <img src="images/home/14.JPG" class="img-fluid constant-size" alt="">
@@ -364,7 +124,15 @@
 
         </div>
 
+
+        <!-- Copyright -->
+        <div class="container text-center">
+          <p class="copyright">© 2020 Art Portfolio by Gemm Belle.</p>
+        </div>
+
     </section>
+
+
 
   </body>
 </html>

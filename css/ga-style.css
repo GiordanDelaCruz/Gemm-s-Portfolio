@@ -47,7 +47,7 @@
 }
 
 .bg-black-grey{
-  background-color: #323232; 
+  background-color: #323232;
 }
 
 .bg-light-black{
@@ -92,6 +92,10 @@
 
 .bg-sand{
   background-color: #cabfab;
+}
+
+.bg-gold{
+  background-color: #c7a865;
 }
 
 .bg-wood{
