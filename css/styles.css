@@ -18,7 +18,7 @@ p{
   color: white;
 }
 
-h1, h5{
+h1, h2, h3, h4, h5, h6{
   font-family: 'Montserrat', sans-serif;
   color: white;
 }
@@ -84,12 +84,15 @@ h1, h5{
 }
 
 .title-box{
-  padding: 2rem 0 4rem 0;
+  padding: 2rem 0;
 }
 
+.sub-title-box{
+  padding: 1rem 0;
+}
 /* Images */
 .images{
-  margin-top: 7rem;
+  /* margin-top: 7rem; */
 }
 
 .constant-size{
