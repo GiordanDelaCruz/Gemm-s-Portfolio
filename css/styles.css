@@ -3,17 +3,8 @@ body{
   margin: 0;
 }
 
-a{
-  color: #888888;
-  font-size: 15px;
-}
-
-a:hover{
-  color: #fff;
-  text-decoration: none;
-}
-
 p{
+  line-height: 1.6;
   font-family: 'Montserrat', sans-serif;
   color: white;
 }
@@ -55,12 +46,19 @@ h1, h2, h3, h4, h5, h6{
   font-size: 40px;
 }
 
+.xs-text{
+  font-size: 0.8rem;
+}
+.sm-text{
+  font-size: 1.0rem;
+}
+
 .md-text{
   font-size: 28px;
 }
 
 .sub-title{
-  font-size: 18px; 
+  font-size: 18px;
 }
 
 .modal-title{
@@ -86,6 +84,33 @@ h1, h2, h3, h4, h5, h6{
   padding: 20px 0 0;
 }
 
+.sidebar-link{
+  color: #888888;
+  font-size: 15px;
+}
+
+.sidebar-link:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+.about-btn{
+  background-color: #c7a865;
+}
+
+.about-btn:hover{
+  background-color: #fff;
+}
+
+.about-link{
+  color: #fff;
+}
+
+.about-link:hover{
+  color: #000;
+  text-decoration: none;
+}
+
 .link-box{
   margin: 2.5rem 0;
 }
@@ -105,6 +130,11 @@ h1, h2, h3, h4, h5, h6{
 .sub-title-box{
   padding: 1rem 0;
 }
+
+.about-btn-box{
+  padding: 10rem 0 0 0 ;
+}
+
 /* Images */
 .images{
   /* margin-top: 7rem; */
