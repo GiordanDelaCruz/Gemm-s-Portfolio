@@ -59,6 +59,17 @@ h1, h2, h3, h4, h5, h6{
   font-size: 28px;
 }
 
+.modal-title{
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+}
+
+.modal-text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: black;
+}
+
 .sidebar{
   background-color: #323232;
   height: 100%;
@@ -97,6 +108,15 @@ h1, h2, h3, h4, h5, h6{
 
 .constant-size{
   width: 12rem;
+}
+
+.zoom {
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.18); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .copyright{
